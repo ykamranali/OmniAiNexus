@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\css\\filament",
+    "\\resources\\css\\filament\\admin",
+    "\\vendor\\spatie",
+    "\\vendor\\spatie\\shiki-php"
+  ],
+  "SelectedNode": "\\resources\\css\\filament\\admin\\theme.css",
+  "PreviewInSolutionExplorer": false
+}
