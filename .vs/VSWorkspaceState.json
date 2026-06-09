@@ -2,13 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Filament\\Admin",
-    "\\app\\Filament\\Admin\\Resources",
     "\\app\\Http",
-    "\\app\\Providers\\Filament",
-    "\\resources",
-    "\\resources\\views\\filament\\admin\\widgets"
+    "\\resources"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\nixpacks.toml",
   "PreviewInSolutionExplorer": false
 }
