@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>OmniAI Nexus | Next-Gen AI Marketing & Automation</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">OmniAI Nexus</div>
+    <div class="nav-links">
+      <a href="#">Features</a>
+      <a href="#">Intelligence</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Enterprise</a>
+      <button class="btn-outline" id="demoAlertBtn">Live Demo</button>
+      <button class="btn-primary" id="getStartedBtn">Get Started →</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">✨ AI-POWERED ECOSYSTEM</div>
+      <h1>One brain for<br> <span class="hero-highlight">marketing & automation</span></h1>
+      <p>Connect OpenAI, Gemini, Midjourney, and all social platforms. Automate content, video ads, customer insights, and campaigns — centralized AI command center.</p>
+      <button class="btn-primary" id="heroCtaBtn">Launch OmniAI →</button>
+      <div class="hero-stats">
+        <div class="stat-item"><h3>9+</h3><span>AI Engines</span></div>
+        <div class="stat-item"><h3>12+</h3><span>Social Networks</span></div>
+        <div class="stat-item"><h3>24/7</h3><span>Intelligent Automation</span></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/dashboard-preview.jpg" alt="AI Dashboard Preview" onerror="this.src='https://placehold.co/600x500/5e2ced/white?text=OmniAI+Nexus+Dashboard'">
+    </div>
+  </div>
+
+  <!-- Social Media Integration Showcase -->
+  <div style="text-align: center; margin: 20px 0 10px;">
+    <span class="hero-badge" style="background:#e6f7ff;">🌐 Connected Ecosystems</span>
+    <div class="social-icons-marquee">
+      <div class="social-icon-badge"><i class="fab fa-instagram" style="color:#E4405F;"></i> Instagram</div>
+      <div class="social-icon-badge"><i class="fab fa-tiktok"></i> TikTok</div>
+      <div class="social-icon-badge"><i class="fab fa-youtube" style="color:#FF0000;"></i> YouTube</div>
+      <div class="social-icon-badge"><i class="fab fa-facebook" style="color:#1877F2;"></i> Facebook</div>
+      <div class="social-icon-badge"><i class="fab fa-linkedin" style="color:#0A66C2;"></i> LinkedIn</div>
+      <div class="social-icon-badge"><i class="fab fa-twitter"></i> X</div>
+      <div class="social-icon-badge"><i class="fab fa-whatsapp" style="color:#25D366;"></i> WhatsApp Business</div>
+      <div class="social-icon-badge"><i class="fab fa-telegram"></i> Telegram</div>
+    </div>
+  </div>
+
+  <!-- Core Features Section -->
+  <section>
+    <h2 class="section-title">Intelligent Core Engine</h2>
+    <p class="section-sub">Multi-AI orchestration + real-time social intelligence under one unified dashboard</p>
+    <div class="features-grid">
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-brain"></i></div><h3>Multi-AI Engine</h3><p>OpenAI, Gemini, Claude, DeepSeek, Midjourney, Stable Diffusion — all at your command. Switch models per task.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-chart-line"></i></div><h3>Predictive Analytics</h3><p>Customer behavior forecasting, AI-powered revenue insights & campaign ROI predictions.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-video"></i></div><h3>AI Video & Ad Gen</h3><p>Generate video scripts, voiceovers, subtitles & creative ads optimized for TikTok, YouTube & Reels.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-robot"></i></div><h3>Autonomous Chatbots</h3><p>Smart lead qualification, 24/7 support, and CRM integration that auto-nurtures.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-chart-simple"></i></div><h3>Smart Business Dashboard</h3><p>Real-time analytics, engagement heatmaps & AI recommendations for growth.</p></div>
+      <div class="feature-card"><div class="feature-icon"><i class="fas fa-envelopes-bulk"></i></div><h3>AI Marketing Automation</h3><p>Email campaigns, lead funnels, audience targeting & cross-platform scheduling.</p></div>
+    </div>
+  </section>
+
+  <!-- Dashboard Preview Image -->
+  <div class="dashboard-show">
+    <img src="images/analytics-dashboard.jpg" alt="OmniAI Analytics Dashboard Preview" onerror="this.src='https://placehold.co/1200x600/111827/ffffff?text=OmniAI+Nexus+-+Real+Time+Analytics+Dashboard'">
+  </div>
+
+  <!-- Competitive advantage -->
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; margin: 50px 0;">
+    <div style="flex:1"><i class="fas fa-crown" style="font-size: 3rem; color:#5e2ced;"></i><h3 style="margin: 16px 0 8px;">Competitive Advantage</h3><p>Unlike siloed tools, OmniAI Nexus merges AI, automation, social intelligence & predictive marketing into ONE ecosystem. Reduce SaaS sprawl and boost ROI.</p></div>
+    <div style="flex:1"><i class="fas fa-dollar-sign" style="font-size: 3rem; color:#5e2ced;"></i><h3 style="margin: 16px 0 8px;">Revenue Model</h3><p>Monthly subscriptions, enterprise licenses, AI usage credits, white-label solutions & marketplace commissions.</p></div>
+    <div style="flex:1"><i class="fas fa-users" style="font-size: 3rem; color:#5e2ced;"></i><h3 style="margin: 16px 0 8px;">Target Customers</h3><p>Businesses, agencies, influencers, e‑commerce, startups, creators & Fortune 500 enterprises.</p></div>
+  </div>
+
+  <!-- Roadmap -->
+  <section>
+    <h2 class="section-title">🌍 AI Marketplace & Roadmap</h2>
+    <p class="section-sub">Expanding the intelligent automation universe</p>
+    <div class="roadmap-steps">
+      <div class="step"><i class="fas fa-rocket" style="font-size: 2rem; color: #5e2ced;"></i><h3>Phase 1</h3><p>Social integrations, AI chatbot, content automation. Launch core dashboard & multi‑AI hub.</p></div>
+      <div class="step"><i class="fas fa-microchip" style="font-size: 2rem; color: #5e2ced;"></i><h3>Phase 2</h3><p>AI video generation, predictive analytics, AI CRM + auto campaign optimization.</p></div>
+      <div class="step"><i class="fas fa-store" style="font-size: 2rem; color: #5e2ced;"></i><h3>Phase 3</h3><p>Global AI plugin marketplace, enterprise white‑label automation & hyper‑scaling.</p></div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <div style="margin: 20px 0 60px;">
+    <h2 class="section-title">Flexible Plans</h2>
+    <p class="section-sub">Choose the tier that accelerates your business</p>
+    <div class="pricing-grid">
+      <div class="pricing-card"><i class="fas fa-seedling" style="font-size: 2.2rem; color:#5e2ced;"></i><h3>Starter</h3><p class="price" style="font-size: 2rem; font-weight: 800;">$49<span style="font-size:1rem;">/mo</span></p><p>Up to 3 social accounts, AI content gen, basic analytics</p><button class="btn-outline" style="margin-top: 24px;">Start Free Trial</button></div>
+      <div class="pricing-card"><i class="fas fa-chart-line" style="font-size: 2.2rem; color:#5e2ced;"></i><h3>Pro Marketer</h3><p style="font-size: 2rem; font-weight: 800;">$149<span style="font-size:1rem;">/mo</span></p><p>Full AI suite, video generation, predictive insights, CRM automation</p><button class="btn-primary">Get Pro</button></div>
+      <div class="pricing-card"><i class="fas fa-building" style="font-size: 2.2rem; color:#5e2ced;"></i><h3>Enterprise</h3><p style="font-size: 1.8rem; font-weight: 800;">Custom</p><p>White‑label, dedicated AI cluster, SLA, SSO & advanced analytics</p><button class="btn-outline">Contact Sales</button></div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="cta-section">
+    <h2 style="font-size: 2.2rem; margin-bottom: 16px;">Ready to automate intelligence?</h2>
+    <p style="margin-bottom: 32px; opacity: 0.9;">Join the next-gen AI business operating system — centralize your marketing, social & analytics.</p>
+    <button class="btn-primary" style="background: white; color:#5e2ced; box-shadow: none;" id="finalCtaBtn">Book a Demo →</button>
+  </div>
+
+  <!-- Authentication Section -->
+  <div class="auth-section">
+    <div class="auth-card">
+      <div><i class="fas fa-shield-alt" style="font-size: 2.5rem; color:#5e2ced;"></i><h3>Secure Authentication</h3><p>Email · Google · Apple · Multi-factor · Enterprise SSO</p></div>
+      <div><i class="fas fa-plug" style="font-size: 2.5rem; color:#5e2ced;"></i><h3>API & Webhooks</h3><p>Integrate with Zapier, HubSpot, Salesforce & custom tools</p></div>
+      <div><i class="fas fa-chalkboard-user" style="font-size: 2.5rem; color:#5e2ced;"></i><h3>Team Management</h3><p>Role-based access, campaign approvals & audit logs</p></div>
+    </div>
+  </div>
+
+  <!-- Marketplace Ecosystem -->
+  <div class="marketplace-section">
+    <div class="marketplace-card">
+      <i class="fas fa-store" style="font-size: 3rem; color:#5e2ced;"></i>
+      <h2>AI Marketplace Ecosystem</h2>
+      <p>Coming soon: AI plugin marketplace, marketing templates, automation packs, and third‑party integrations. Extend OmniAI Nexus with custom modules.</p>
+      <button class="btn-outline" id="marketplaceNotify">Get Early Access</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo" style="margin-bottom: 16px;">OmniAI Nexus</div>
+    <div style="display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; margin-bottom: 24px;">
+      <a href="#" style="text-decoration: none; color:#4b5563;">Privacy</a>
+      <a href="#" style="text-decoration: none; color:#4b5563;">Terms</a>
+      <a href="#" style="text-decoration: none; color:#4b5563;">Security</a>
+      <a href="#" style="text-decoration: none; color:#4b5563;">AI Ethics</a>
+    </div>
+    <p>© 2025 OmniAI Nexus — The AI-Powered Marketing & Social Intelligence Platform</p>
+    <p style="font-size: 0.8rem; margin-top: 12px;">⚡ Multi‑AI Engine · Real‑Time Social Intelligence · Predictive Growth</p>
+    <p style="font-size: 0.75rem; margin-top: 16px; background: #eef2ff; display: inline-block; padding: 6px 16px; border-radius: 40px;">🔒 SOC2 Type II, GDPR compliant — Enterprise ready</p>
+  </footer>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

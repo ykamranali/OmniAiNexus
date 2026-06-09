@@ -1,0 +1,515 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/Admin/**/*';
+@source '../../../../resources/views/filament/admin/**/*';
+
+/* ==================================================
+   OMNIAI NEXUS PREMIUM THEME
+================================================== */
+
+:root {
+    --omni-bg: #050816;
+    --omni-sidebar: #0b1020;
+    --omni-card: #111827;
+    --omni-card-hover: #161f32;
+    --omni-purple: #8b5cf6;
+    --omni-indigo: #6366f1;
+    --omni-cyan: #06b6d4;
+    --omni-border: rgba(255, 255, 255, 0.06);
+    --omni-glow: rgba(139, 92, 246, 0.25);
+}
+
+/* ==================================================
+   BODY
+================================================== */
+
+.fi-body {
+    background: radial-gradient( circle at top right, rgba(139, 92, 246, 0.18), transparent 30% ), radial-gradient( circle at bottom left, rgba(6, 182, 212, 0.10), transparent 35% ), #050816 !important;
+}
+
+/* ==================================================
+   SIDEBAR
+================================================== */
+
+.fi-sidebar {
+    background: #0b1020 !important;
+    border-right: 1px solid rgba(255,255,255,.05);
+}
+
+.fi-sidebar-nav {
+    padding-top: 20px;
+}
+
+.fi-sidebar-item {
+    border-radius: 14px !important;
+    margin-bottom: 4px;
+}
+
+.fi-sidebar-item-active {
+    background: linear-gradient( 135deg, rgba(139,92,246,.25), rgba(99,102,241,.18) ) !important;
+    box-shadow: 0 0 20px rgba(139,92,246,.15);
+}
+
+/* ==================================================
+   TOPBAR
+================================================== */
+
+.fi-topbar {
+    background: rgba(11,16,32,.90) !important;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+}
+
+/* ==================================================
+   PAGE
+================================================== */
+
+.fi-page {
+    max-width: 1900px !important;
+}
+
+/* ==================================================
+   CARDS
+================================================== */
+
+.fi-section,
+.fi-wi,
+.fi-ta {
+    background: rgba(17,24,39,.90) !important;
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: 22px !important;
+    transition: all .25s ease;
+}
+
+    .fi-section:hover,
+    .fi-wi:hover {
+        transform: translateY(-2px);
+        border-color: rgba(139,92,246,.25);
+        box-shadow: 0 0 25px rgba(139,92,246,.12);
+    }
+
+/* ==================================================
+   TABLES
+================================================== */
+
+.fi-ta {
+    overflow: hidden;
+    border-radius: 20px !important;
+}
+
+/* ==================================================
+   INPUTS
+================================================== */
+
+.fi-input,
+input,
+select,
+textarea {
+    border-radius: 14px !important;
+}
+
+/* ==================================================
+   BUTTONS
+================================================== */
+
+.fi-btn {
+    border-radius: 14px !important;
+}
+
+.fi-btn-color-primary {
+    background: linear-gradient( 135deg, #8b5cf6, #6366f1 ) !important;
+    border: none !important;
+}
+
+/* ==================================================
+   HEADINGS
+================================================== */
+
+h1,
+h2,
+h3 {
+    letter-spacing: -.02em;
+}
+
+/* ==================================================
+   DASHBOARD CARDS
+================================================== */
+
+.omni-stat-card {
+    background: linear-gradient( 135deg, rgba(139,92,246,.15), rgba(6,182,212,.05) );
+    border: 1px solid rgba(139,92,246,.15);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+/* ==================================================
+   SCROLLBAR
+================================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 10px;
+}
+/* ==========================================
+   OMNIAI HOVER EFFECTS
+========================================== */
+
+.fi-section {
+    transition: all .25s ease;
+}
+
+    .fi-section:hover {
+        transform: translateY(-4px);
+        border-color: rgba(139,92,246,.35);
+    }
+/* ==========================================
+   PREMIUM SIDEBAR
+========================================== */
+
+.fi-sidebar {
+    width: 290px !important;
+    padding: 20px !important;
+}
+
+.fi-sidebar-nav {
+    gap: 10px !important;
+}
+
+.fi-sidebar-item {
+    padding: 8px !important;
+    margin-bottom: 8px !important;
+    border-radius: 18px !important;
+}
+
+.fi-sidebar-item-active {
+    background: linear-gradient( 135deg, rgba(139,92,246,.30), rgba(99,102,241,.18) ) !important;
+    border: 1px solid rgba(139,92,246,.25);
+}
+
+.fi-sidebar-item:hover {
+    background: rgba(255,255,255,.04);
+}
+
+.fi-sidebar-group-label {
+    color: #94a3b8 !important;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* ==========================================
+   GLOW BUTTONS
+========================================== */
+.fi-btn {
+    border-radius: 999px !important;
+    padding: 14px 28px !important;
+    transition: .25s ease;
+}
+
+.fi-btn-color-primary {
+    background: linear-gradient( 135deg, #8b5cf6, #6366f1 ) !important;
+    box-shadow: 0 0 20px rgba(139,92,246,.35), 0 0 50px rgba(99,102,241,.20);
+}
+
+.fi-btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   OMNIAI GLOW CARDS
+========================================== */
+
+.omni-stat-card {
+    background: linear-gradient( 135deg, rgba(139,92,246,.14), rgba(6,182,212,.05) );
+    border: 1px solid rgba(139,92,246,.15);
+    border-radius: 24px;
+    padding: 30px;
+    transition: all .3s ease;
+    box-shadow: 0 0 20px rgba(139,92,246,.10);
+}
+
+    .omni-stat-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(139,92,246,.35);
+        box-shadow: 0 0 40px rgba(139,92,246,.20);
+    }
+/* ==========================================
+   NEXUS CENTER
+========================================== */
+
+.nexus-center {
+    display: grid;
+    grid-template-columns: 320px 420px 320px;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    max-width: 1300px;
+    margin: 40px auto;
+}
+
+/* ==========================================
+   SOCIAL SIDES
+========================================== */
+
+.social-side {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.social-node {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.social-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 170px;
+}
+
+/* ==========================================
+   SOCIAL TEXT
+========================================== */
+
+.social-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.social-subtitle {
+    color: #94a3b8;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.social-value {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    line-height: 1;
+}
+
+/* ==========================================
+   SOCIAL ICON CARDS
+========================================== */
+
+.social-card {
+    width: 90px;
+    height: 90px;
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: rgba(255,255,255,.02);
+    border: 1px solid rgba(255,255,255,.06);
+    box-shadow: 0 0 20px rgba(139,92,246,.18);
+    transition: .3s ease;
+}
+
+    .social-card:hover {
+        transform: scale(1.05);
+    }
+
+.social-icon {
+    font-size: 42px;
+    color: #8b5cf6;
+    text-shadow: 0 0 20px #8b5cf6, 0 0 40px #06b6d4;
+}
+
+/* ==========================================
+   BRAIN AREA
+========================================== */
+
+.brain-image {
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 0 35px rgba(139,92,246,.9)) drop-shadow(0 0 90px rgba(6,182,212,.45));
+    animation: brainFloat 6s ease-in-out infinite;
+}
+
+.brain-title {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+.brain-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 17px;
+    margin-top: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ==========================================
+   BRAIN ANIMATION
+========================================== */
+
+@keyframes brainPulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Pull social columns toward the brain */
+
+.social-node-right {
+    justify-content: flex-end;
+}
+
+.social-node-right .social-info {
+    text-align: right;
+}
+.dashboard-card {
+    background: #111827;
+    border-radius: 30px;
+    padding: 40px;
+    border: 1px solid rgba(139,92,246,.15);
+    height: 100%;
+}
+
+.dashboard-label {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.dashboard-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.dashboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* ==========================================
+   BRAIN ORBIT RINGS
+========================================== */
+
+.brain-center {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brain-wrapper {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brain-ring-1,
+.brain-ring-2 {
+    position: absolute;
+    border-radius: 999px;
+    border: 1px solid rgba(139,92,246,.18);
+}
+
+.brain-ring-1 {
+    width: 420px;
+    height: 420px;
+    border: 1px solid rgba(255,255,255,.03);
+    box-shadow: 0 0 20px rgba(139,92,246,.08);
+    animation: orbitRotate 40s linear infinite;
+}
+
+.brain-ring-2 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(255,255,255,.02);
+    animation: orbitRotateReverse 60s linear infinite;
+}
+
+@keyframes orbitRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes orbitRotateReverse {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes dataFlow {
+
+    from {
+        left: -10px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+.brain-center {
+    position: relative;
+}
+
+    .brain-center::before {
+        content: "";
+        position: absolute;
+        width: 520px;
+        height: 520px;
+        border-radius: 50%;
+        background: radial-gradient( circle, rgba(139,92,246,.08), transparent 70% );
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+    }
+
+@keyframes brainFloat {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

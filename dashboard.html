@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniAI Nexus | AI Business Command Center</title>
+  
+  <!-- Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Boxicons for Modern Vector Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  
+  <!-- Main Premium Style -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Inline SVG Favicon representing a stylized gradient 'N' -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%236366F1'/%3E%3Cstop offset='50%25' stop-color='%238B5CF6'/%3E%3Cstop offset='100%25' stop-color='%2306B6D4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M25 20 L45 20 L75 80 L55 80 Z' fill='url(%23g)'/%3E%3Cpath d='M25 20 L45 20 L25 80 Z' fill='%236366F1' opacity='0.7'/%3E%3Cpath d='M75 80 L55 80 L75 20 Z' fill='%2306B6D4' opacity='0.7'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. AUTH OVERLAY
+       ========================================================================= -->
+  <div id="auth-overlay" class="auth-overlay">
+    <div class="auth-card">
+      <!-- Left side: Brand Showcase -->
+      <div class="auth-brand">
+        <div class="brand-logo">
+          <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6366F1" />
+                <stop offset="50%" stop-color="#8B5CF6" />
+                <stop offset="100%" stop-color="#06B6D4" />
+              </linearGradient>
+            </defs>
+            <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" fill="url(#logo-grad)" />
+            <polygon points="50,15 83,30 83,70 50,85 17,70 17,30" fill="#0D1425" />
+            <path d="M42,32 L60,45 L40,55 L58,68" stroke="url(#logo-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          </svg>
+          <div class="brand-text">OmniAI <span>Nexus</span></div>
+        </div>
+        <p class="brand-tagline">The ultimate AI business operating system. Automate, create, and scale your brand across all digital platforms in real-time.</p>
+        
+        <div class="brand-features">
+          <div class="brand-feature-item">
+            <div class="feat-icon"><i class="bx bx-bot"></i></div>
+            <div class="feat-desc">
+              <h4>Multi-AI Engine Hub</h4>
+              <p>Harness OpenAI, Gemini, Claude, and DeepSeek from one command center.</p>
+            </div>
+          </div>
+          <div class="brand-feature-item">
+            <div class="feat-icon"><i class="bx bx-bar-chart-alt-2"></i></div>
+            <div class="feat-desc">
+              <h4>Predictive Insights</h4>
+              <p>Track real-time cross-platform metrics and customer growth trends.</p>
+            </div>
+          </div>
+          <div class="brand-feature-item">
+            <div class="feat-icon"><i class="bx bx-rocket"></i></div>
+            <div class="feat-desc">
+              <h4>Omnichannel Campaigns</h4>
+              <p>Launch automated ad campaigns, videos, and email funnels instantly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side: Authentication Forms -->
+      <div class="auth-forms">
+        <!-- Log In Form -->
+        <form id="login-form" class="auth-form-panel">
+          <h2>Welcome Back</h2>
+          <p class="auth-subtitle">Sign in to access your intelligent command center</p>
+          
+          <div class="input-group">
+            <label for="login-email">Email Address</label>
+            <div class="input-wrapper">
+              <i class="bx bx-envelope"></i>
+              <input type="email" id="login-email" placeholder="name@company.com" required value="kamran@omniai.nexus">
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="login-password">Password</label>
+            <div class="input-wrapper">
+              <i class="bx bx-lock-alt"></i>
+              <input type="password" id="login-password" placeholder="••••••••••••" required value="password123">
+            </div>
+          </div>
+
+          <div class="form-actions-row">
+            <label class="checkbox-container">
+              <input type="checkbox" id="login-remember" checked>
+              <span class="checkmark"></span>
+              Remember me
+            </label>
+            <a href="#" class="forgot-pass">Forgot Password?</a>
+          </div>
+
+          <button type="submit" id="btn-login" class="btn btn-primary btn-full">
+            <i class="bx bx-log-in"></i> Sign In to Nexus
+          </button>
+
+          <div class="auth-divider">
+            <span>or continue with</span>
+          </div>
+
+          <div class="social-auth-row">
+            <button type="button" class="btn btn-social btn-full">
+              <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22c-.44-.63-.79-1.3-1.01-2.09s.13-1.43.35-2.09z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+              </svg>
+              Google
+            </button>
+            <button type="button" class="btn btn-social btn-full">
+              <i class="bx bxl-apple"></i> Apple
+            </button>
+          </div>
+
+          <p class="auth-toggle-msg">Don't have an account? <span id="show-signup">Create one</span></p>
+        </form>
+
+        <!-- Sign Up Form -->
+        <form id="signup-form" class="auth-form-panel" style="display: none;">
+          <h2>Create Account</h2>
+          <p class="auth-subtitle">Get started with your 14-day free trial</p>
+
+          <div class="input-group">
+            <label for="signup-name">Full Name</label>
+            <div class="input-wrapper">
+              <i class="bx bx-user"></i>
+              <input type="text" id="signup-name" placeholder="Kamran Ahmad" required>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="signup-email">Email Address</label>
+            <div class="input-wrapper">
+              <i class="bx bx-envelope"></i>
+              <input type="email" id="signup-email" placeholder="name@company.com" required>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="signup-password">Password</label>
+            <div class="input-wrapper">
+              <i class="bx bx-lock-alt"></i>
+              <input type="password" id="signup-password" placeholder="Create a strong password" required>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="signup-confirm">Confirm Password</label>
+            <div class="input-wrapper">
+              <i class="bx bx-lock-alt"></i>
+              <input type="password" id="signup-confirm" placeholder="Confirm password" required>
+            </div>
+          </div>
+
+          <div class="form-actions-row">
+            <label class="checkbox-container">
+              <input type="checkbox" id="signup-terms" required>
+              <span class="checkmark"></span>
+              I agree to the Terms of Service & Privacy Policy
+            </label>
+          </div>
+
+          <button type="submit" id="btn-signup" class="btn btn-primary btn-full">
+            <i class="bx bx-rocket"></i> Get Started Free
+          </button>
+
+          <p class="auth-toggle-msg">Already have an account? <span id="show-login">Sign in</span></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =========================================================================
+       2. MAIN APP CONTAINER
+       ========================================================================= -->
+  <div id="app" class="app-layout" style="display: none;">
+    
+    <!-- Sidebar Navigation -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-logo">
+        <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,5 95,25 95,75 50,95 5,75 5,25" fill="url(#logo-grad)" />
+          <polygon points="50,15 83,30 83,70 50,85 17,70 17,30" fill="#0D1425" />
+          <path d="M42,32 L60,45 L40,55 L58,68" stroke="url(#logo-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        </svg>
+        <span class="logo-text">OmniAI <span class="logo-badge">NEXUS</span></span>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#dashboard" class="nav-item active" data-page="dashboard">
+          <i class="bx bx-grid-alt"></i>
+          <span>Dashboard</span>
+        </a>
+        <a href="#ai-studio" class="nav-item" data-page="ai-studio">
+          <i class="bx bx-bot"></i>
+          <span>AI Studio</span>
+        </a>
+        <a href="#social" class="nav-item" data-page="social">
+          <i class="bx bx-share-alt"></i>
+          <span>Social Media</span>
+        </a>
+        <a href="#campaigns" class="nav-item" data-page="campaigns">
+          <i class="bx bx-rocket"></i>
+          <span>Campaigns</span>
+        </a>
+        <a href="#analytics" class="nav-item" data-page="analytics">
+          <i class="bx bx-bar-chart-alt-2"></i>
+          <span>Analytics</span>
+        </a>
+        <a href="#settings" class="nav-item" data-page="settings">
+          <i class="bx bx-cog"></i>
+          <span>Settings</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-profile-card">
+          <div class="user-avatar">KA</div>
+          <div class="user-info">
+            <h4 id="profile-name-display">Kamran Ahmad</h4>
+            <span>Pro Plan</span>
+          </div>
+          <button id="btn-logout" class="btn-logout-icon" title="Log Out">
+            <i class="bx bx-log-out"></i>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="main-content">
+      
+      <!-- Topbar Header -->
+      <header id="topbar" class="topbar">
+        <button id="sidebar-toggle" class="sidebar-toggle">
+          <i class="bx bx-menu"></i>
+        </button>
+        
+        <div class="topbar-search">
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search commands, campaigns, configurations...">
+        </div>
+
+        <div class="topbar-actions">
+          <div class="topbar-btn-wrapper">
+            <button class="topbar-btn">
+              <i class="bx bx-bell"></i>
+              <span class="badge">3</span>
+            </button>
+          </div>
+          <div class="topbar-btn-wrapper">
+            <button class="topbar-btn">
+              <i class="bx bx-message-dots"></i>
+              <span class="badge">5</span>
+            </button>
+          </div>
+          <div class="topbar-avatar-btn">KA</div>
+        </div>
+      </header>
+
+      <!-- Dynamic Page Container -->
+      <div id="page-container" class="page-container">
+
+        <!-- ==========================================================
+             PAGE: DASHBOARD
+             ========================================================== -->
+        <section id="page-dashboard" class="page active">
+          <div class="page-header">
+            <div class="header-title">
+              <h1 id="dashboard-welcome">Welcome back, Kamran</h1>
+              <p>Here's what is happening with your automation campaigns today.</p>
+              <div class="current-date-badge">
+                <i class="bx bx-calendar"></i> <span id="current-date">Friday, May 29, 2026</span>
+              </div>
+            </div>
+            <button class="btn btn-primary" onclick="location.hash='#campaigns'; document.getElementById('btn-new-campaign').click();">
+              <i class="bx bx-plus"></i> New Campaign
+            </button>
+          </div>
+
+          <!-- Stats Widgets Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-card-row">
+                <div class="stat-icon" style="background: rgba(99, 102, 241, 0.15); color: #6366F1;">
+                  <i class="bx bx-trending-up"></i>
+                </div>
+                <div class="stat-change positive">
+                  <i class="bx bx-up-arrow-alt"></i> 12.5%
+                </div>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-value" id="stat-reach">0</h3>
+                <p class="stat-label">Total Reach</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-card-row">
+                <div class="stat-icon" style="background: rgba(236, 72, 153, 0.15); color: #EC4899;">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="stat-change positive">
+                  <i class="bx bx-up-arrow-alt"></i> 3.2%
+                </div>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-value" id="stat-engagement">0%</h3>
+                <p class="stat-label">Engagement Rate</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-card-row">
+                <div class="stat-icon" style="background: rgba(6, 182, 212, 0.15); color: #06B6D4;">
+                  <i class="bx bx-bot"></i>
+                </div>
+                <div class="stat-change positive">
+                  <i class="bx bx-up-arrow-alt"></i> 28.4%
+                </div>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-value" id="stat-generations">0</h3>
+                <p class="stat-label">AI Generations</p>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-card-row">
+                <div class="stat-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">
+                  <i class="bx bx-rocket"></i>
+                </div>
+                <div class="stat-change positive">
+                  +2
+                </div>
+              </div>
+              <div class="stat-info">
+                <h3 class="stat-value" id="stat-campaigns">0</h3>
+                <p class="stat-label">Active Campaigns</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Charts Row -->
+          <div class="charts-grid">
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Engagement Overview</h3>
+                <select class="chart-filter-select">
+                  <option>7 Days</option>
+                  <option>30 Days</option>
+                  <option>90 Days</option>
+                </select>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="engagementChart"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Revenue Analytics</h3>
+                <select class="chart-filter-select">
+                  <option>30 Days</option>
+                  <option>90 Days</option>
+                  <option>12 Months</option>
+                </select>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="revenueChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Columns -->
+          <div class="bottom-grid">
+            <!-- Recent activity list -->
+            <div class="activity-card">
+              <div class="card-header">
+                <h3>Recent AI Generations</h3>
+                <a href="#ai-studio" class="card-link-btn">Create Content</a>
+              </div>
+              <div class="activity-list">
+                <div class="activity-item">
+                  <div class="activity-badge badge-post">Post</div>
+                  <div class="activity-info">
+                    <h4>Instagram Carousel Content</h4>
+                    <p>Generated with OpenAI GPT-4</p>
+                  </div>
+                  <div class="activity-time-status">
+                    <span>2 mins ago</span>
+                    <div class="status-dot success"></div>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <div class="activity-badge badge-email">Email</div>
+                  <div class="activity-info">
+                    <h4>Nurture Sequence: Summer Sale</h4>
+                    <p>Generated with Google Gemini</p>
+                  </div>
+                  <div class="activity-time-status">
+                    <span>15 mins ago</span>
+                    <div class="status-dot success"></div>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <div class="activity-badge badge-ad">Ad Copy</div>
+                  <div class="activity-info">
+                    <h4>Facebook High-Conversion Ad</h4>
+                    <p>Generated with Claude AI</p>
+                  </div>
+                  <div class="activity-time-status">
+                    <span>1 hour ago</span>
+                    <div class="status-dot success"></div>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <div class="activity-badge badge-video">Video</div>
+                  <div class="activity-info">
+                    <h4>TikTok Viral Product Reel Script</h4>
+                    <p>Generated with DeepSeek</p>
+                  </div>
+                  <div class="activity-time-status">
+                    <span>2 hours ago</span>
+                    <div class="status-dot pending"></div>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <div class="activity-badge badge-blog">Blog</div>
+                  <div class="activity-info">
+                    <h4>SEO Blog: Modern Web Performance</h4>
+                    <p>Generated with Claude AI</p>
+                  </div>
+                  <div class="activity-time-status">
+                    <span>3 hours ago</span>
+                    <div class="status-dot success"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Intelligent Recommendations -->
+            <div class="recommendations-card">
+              <div class="card-header">
+                <h3>AI-Powered Insights</h3>
+                <i class="bx bx-bulb recommendation-sparkle-icon"></i>
+              </div>
+              <div class="recommendations-list">
+                <div class="recommendation-item">
+                  <div class="rec-icon-box" style="background: rgba(99, 102, 241, 0.1); color: #6366F1;">
+                    <i class="bx bx-time-five"></i>
+                  </div>
+                  <div class="rec-content">
+                    <h4>Optimal Posting Window</h4>
+                    <p>Post on Instagram between 6-8 PM for 34% more organic engagement, based on your audience trends.</p>
+                  </div>
+                  <button class="btn btn-secondary btn-sm" onclick="location.hash='#social'">Schedule</button>
+                </div>
+
+                <div class="recommendation-item">
+                  <div class="rec-icon-box" style="background: rgba(16, 185, 129, 0.1); color: #10B981;">
+                    <i class="bx bx-trending-up"></i>
+                  </div>
+                  <div class="rec-content">
+                    <h4>Trending Hashtags Alert</h4>
+                    <p>Content related to #AIAutomation is surging on LinkedIn. Create a relevant post today.</p>
+                  </div>
+                  <button class="btn btn-secondary btn-sm" onclick="location.hash='#ai-studio'">Generate</button>
+                </div>
+
+                <div class="recommendation-item">
+                  <div class="rec-icon-box" style="background: rgba(236, 72, 153, 0.1); color: #EC4899;">
+                    <i class="bx bx-target-lock"></i>
+                  </div>
+                  <div class="rec-content">
+                    <h4>Audience Engagement Focus</h4>
+                    <p>Your X (Twitter) audience is active on Tuesdays. Shift key announcements to Tuesdays.</p>
+                  </div>
+                  <button class="btn btn-secondary btn-sm" onclick="location.hash='#settings'">Apply Settings</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================================
+             PAGE: AI STUDIO
+             ========================================================== -->
+        <section id="page-ai-studio" class="page">
+          <div class="page-header">
+            <div class="header-title">
+              <h1>AI Content Studio</h1>
+              <p>Produce high-quality content using world-class AI models orchestrated from a single platform.</p>
+            </div>
+            
+            <div class="model-selector-wrapper">
+              <label for="ai-model-select">Active Model:</label>
+              <select id="ai-model-select" class="btn btn-secondary">
+                <option value="openai">OpenAI GPT-4o</option>
+                <option value="gemini">Google Gemini 1.5 Pro</option>
+                <option value="claude">Claude 3.5 Sonnet</option>
+                <option value="deepseek">DeepSeek V3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="studio-layout">
+            <!-- Left panel: Form parameters -->
+            <div class="studio-input">
+              <!-- Content Type -->
+              <div class="input-section">
+                <label>Content Type</label>
+                <div class="btn-group" id="content-type-group">
+                  <button class="btn btn-option active" data-type="post">
+                    <i class="bx bx-edit"></i> Social Post
+                  </button>
+                  <button class="btn btn-option" data-type="blog">
+                    <i class="bx bx-file"></i> Blog Article
+                  </button>
+                  <button class="btn btn-option" data-type="ad">
+                    <i class="bx bx-megaphone"></i> Ad Copy
+                  </button>
+                  <button class="btn btn-option" data-type="email">
+                    <i class="bx bx-envelope"></i> Email Series
+                  </button>
+                  <button class="btn btn-option" data-type="video">
+                    <i class="bx bx-video"></i> Video Script
+                  </button>
+                </div>
+              </div>
+
+              <!-- Tone of Voice -->
+              <div class="input-section">
+                <label>Tone of Voice</label>
+                <div class="btn-group" id="tone-group">
+                  <button class="btn btn-option active" data-tone="professional">Professional</button>
+                  <button class="btn btn-option" data-tone="casual">Casual</button>
+                  <button class="btn btn-option" data-tone="humorous">Humorous</button>
+                  <button class="btn btn-option" data-tone="inspirational">Inspirational</button>
+                </div>
+              </div>
+
+              <!-- Target Platform -->
+              <div class="input-section">
+                <label for="studio-target-platform">Target Platform</label>
+                <select id="studio-target-platform" class="form-control-select">
+                  <option value="universal">Universal / Multi-Platform</option>
+                  <option value="instagram">Instagram (Reels, Feed)</option>
+                  <option value="x">X / Twitter</option>
+                  <option value="linkedin">LinkedIn Professional</option>
+                  <option value="tiktok">TikTok (Short Form Video)</option>
+                  <option value="youtube">YouTube (Long form or Shorts)</option>
+                  <option value="facebook">Facebook Ads</option>
+                </select>
+              </div>
+
+              <!-- Prompt Input -->
+              <div class="input-section">
+                <div class="prompt-header-row">
+                  <label for="ai-prompt">Brief Prompt & Requirements</label>
+                  <span id="prompt-char-count">0 / 1000</span>
+                </div>
+                <textarea id="ai-prompt" placeholder="E.g., Write a promotional post for a web automation startup celebrating its seed funding. Highlight speed, ease of use, and a 20% discount code." rows="6" maxlength="1000"></textarea>
+              </div>
+
+              <!-- Advanced options dropdown toggle -->
+              <div class="advanced-toggle" id="advanced-toggle-btn">
+                <i class="bx bx-chevron-down"></i> Advanced Generation Settings
+              </div>
+              
+              <div class="advanced-options" id="advanced-options-panel" style="display: none;">
+                <div class="advanced-grid">
+                  <div class="adv-group">
+                    <label for="adv-lang">Language</label>
+                    <select id="adv-lang" class="form-control-select-sm">
+                      <option value="en">English (US)</option>
+                      <option value="es">Spanish</option>
+                      <option value="fr">French</option>
+                      <option value="de">German</option>
+                      <option value="ar">Arabic</option>
+                    </select>
+                  </div>
+                  <div class="adv-group">
+                    <div class="slider-header">
+                      <label for="adv-length">Max Length</label>
+                      <span id="length-val">500 tokens</span>
+                    </div>
+                    <input type="range" id="adv-length" min="50" max="2000" step="50" value="500">
+                  </div>
+                </div>
+
+                <div class="adv-checkboxes">
+                  <label class="checkbox-container">
+                    <input type="checkbox" id="adv-hashtags" checked>
+                    <span class="checkmark"></span>
+                    Include Hashtags
+                  </label>
+                  <label class="checkbox-container">
+                    <input type="checkbox" id="adv-emojis" checked>
+                    <span class="checkmark"></span>
+                    Include Emojis
+                  </label>
+                  <label class="checkbox-container">
+                    <input type="checkbox" id="adv-cta" checked>
+                    <span class="checkmark"></span>
+                    Add Call to Action
+                  </label>
+                </div>
+              </div>
+
+              <!-- Action button -->
+              <button id="btn-generate" class="btn btn-primary btn-full btn-large">
+                <i class="bx bx-wand"></i> Generate Content
+              </button>
+            </div>
+
+            <!-- Right panel: Content outputs -->
+            <div class="studio-output">
+              <div class="output-header">
+                <div class="output-tabs">
+                  <button class="output-tab active" data-output-tab="generated">Generated Output</button>
+                  <button class="output-tab" data-output-tab="history">History</button>
+                  <button class="output-tab" data-output-tab="templates">Templates</button>
+                </div>
+                <button id="btn-copy-all" class="btn btn-secondary btn-sm" title="Copy Content">
+                  <i class="bx bx-copy"></i>
+                </button>
+              </div>
+
+              <div class="output-body-container">
+                <!-- Placeholder display when empty -->
+                <div class="output-placeholder" id="output-placeholder-panel">
+                  <i class="bx bx-bot"></i>
+                  <h3>Your AI Assistant is Ready</h3>
+                  <p>Configure the left panel, add a descriptive prompt, and click "Generate Content" to spawn copy dynamically.</p>
+                </div>
+
+                <!-- Textarea output display -->
+                <div id="ai-output" class="output-rich-text" style="display: none;"></div>
+              </div>
+
+              <!-- Output actions toolbar -->
+              <div class="output-actions" id="output-actions-toolbar" style="display: none;">
+                <button id="btn-out-copy" class="btn btn-secondary btn-sm"><i class="bx bx-copy"></i> Copy</button>
+                <button id="btn-out-edit" class="btn btn-secondary btn-sm"><i class="bx bx-edit"></i> Edit</button>
+                <button id="btn-out-regen" class="btn btn-secondary btn-sm"><i class="bx bx-refresh"></i> Regenerate</button>
+                <button id="btn-out-schedule" class="btn btn-primary btn-sm"><i class="bx bx-calendar"></i> Schedule Post</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================================
+             PAGE: SOCIAL MEDIA
+             ========================================================== -->
+        <section id="page-social" class="page">
+          <div class="page-header">
+            <div class="header-title">
+              <h1>Social Media Command Center</h1>
+              <p>Manage integrations, automate scheduling, and publish content seamlessly across networks.</p>
+            </div>
+            <button class="btn btn-primary" id="btn-connect-account">
+              <i class="bx bx-plus"></i> Connect Account
+            </button>
+          </div>
+
+          <!-- Connected Accounts Matrix -->
+          <div class="accounts-grid">
+            <!-- YouTube -->
+            <div class="account-card">
+              <div class="account-header youtube"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(255, 0, 0, 0.1); color: #FF0000;">
+                    <i class="bx bxl-youtube"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>YouTube</h4>
+                    <p>@OmniAI_Channel</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>124K</h5>
+                    <span>Subscribers</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>342</h5>
+                    <span>Videos</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Auto-Publish AI Video</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" checked id="toggle-yt">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="account-card">
+              <div class="account-header instagram"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(236, 72, 153, 0.1); color: #EC4899;">
+                    <i class="bx bxl-instagram"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>Instagram</h4>
+                    <p>@omniai.nexus</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>89.2K</h5>
+                    <span>Followers</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>567</h5>
+                    <span>Posts</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Auto-Publish AI Reels</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" checked id="toggle-ig">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- X -->
+            <div class="account-card">
+              <div class="account-header twitter"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(255, 255, 255, 0.1); color: #FFFFFF;">
+                    <i class="bx bxl-twitter"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>X (Twitter)</h4>
+                    <p>@OmniAINexus</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>45.8K</h5>
+                    <span>Followers</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>1.2K</h5>
+                    <span>Tweets</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Auto-Thread Generation</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" id="toggle-x">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="account-card">
+              <div class="account-header linkedin"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(10, 102, 194, 0.1); color: #0A66C2;">
+                    <i class="bx bxl-linkedin-square"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>LinkedIn</h4>
+                    <p>OmniAI Nexus</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>23.4K</h5>
+                    <span>Connections</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>189</h5>
+                    <span>Articles</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Auto-Publish Insights</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" checked id="toggle-li">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- TikTok -->
+            <div class="account-card">
+              <div class="account-header tiktok"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(255, 255, 255, 0.1); color: #00F2FE;">
+                    <i class="bx bxl-tiktok"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>TikTok</h4>
+                    <p>@omniai_nexus</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>234K</h5>
+                    <span>Followers</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>128</h5>
+                    <span>TikToks</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Auto-Publish Scripted</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" checked id="toggle-tt">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="account-card">
+              <div class="account-header facebook"></div>
+              <div class="account-card-body">
+                <div class="plat-row">
+                  <div class="plat-avatar" style="background: rgba(24, 119, 242, 0.1); color: #1877F2;">
+                    <i class="bx bxl-facebook-circle"></i>
+                  </div>
+                  <div class="plat-details">
+                    <h4>Facebook</h4>
+                    <p>OmniAI Nexus</p>
+                  </div>
+                  <div class="badge badge-success">Active</div>
+                </div>
+                <div class="plat-stats">
+                  <div class="plat-stat-item">
+                    <h5>67.3K</h5>
+                    <span>Followers</span>
+                  </div>
+                  <div class="plat-stat-item">
+                    <h5>445</h5>
+                    <span>Posts</span>
+                  </div>
+                </div>
+                <div class="plat-auto-publish">
+                  <span>Ad Auto-Optimization</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" id="toggle-fb">
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Scheduler Section -->
+          <div class="scheduler-section">
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Content Calendar & Queued Posts</h3>
+                <button class="btn btn-secondary btn-sm" onclick="location.hash='#ai-studio'"><i class="bx bx-calendar-plus"></i> Schedule New</button>
+              </div>
+              
+              <!-- Simple Calendar Grid representation -->
+              <div class="calendar-grid">
+                <div class="calendar-day-header">Mon</div>
+                <div class="calendar-day-header">Tue</div>
+                <div class="calendar-day-header">Wed</div>
+                <div class="calendar-day-header">Thu</div>
+                <div class="calendar-day-header">Fri</div>
+                <div class="calendar-day-header">Sat</div>
+                <div class="calendar-day-header">Sun</div>
+
+                <div class="calendar-cell muted">26</div>
+                <div class="calendar-cell muted">27</div>
+                <div class="calendar-cell muted">28</div>
+                <div class="calendar-cell current-day">
+                  <span class="day-num">29</span>
+                  <div class="cal-events">
+                    <span class="event-dot bg-success" title="Post scheduled"></span>
+                    <span class="event-dot bg-accent" title="Video scheduled"></span>
+                  </div>
+                </div>
+                <div class="calendar-cell">
+                  <span class="day-num">30</span>
+                  <div class="cal-events">
+                    <span class="event-dot bg-pink" title="Email draft ready"></span>
+                  </div>
+                </div>
+                <div class="calendar-cell">
+                  <span class="day-num">31</span>
+                  <div class="cal-events">
+                    <span class="event-dot bg-warning" title="Ad set starting"></span>
+                  </div>
+                </div>
+                <div class="calendar-cell">
+                  <span class="day-num">1</span>
+                </div>
+              </div>
+
+              <!-- Scheduled posts checklist -->
+              <div class="scheduled-list-container">
+                <h4 class="sub-header-title">Upcoming Queued Queue</h4>
+                <div class="scheduled-list">
+                  <div class="scheduled-item">
+                    <div class="sch-platform-icon instagram"><i class="bx bxl-instagram"></i></div>
+                    <div class="sch-content">
+                      <p class="sch-preview">"Unlocking exponential business scalability with localized AI architectures..."</p>
+                      <span class="sch-time"><i class="bx bx-time"></i> Today, 06:15 PM (Optimal Time)</span>
+                    </div>
+                    <span class="badge badge-success">Approved</span>
+                  </div>
+
+                  <div class="scheduled-item">
+                    <div class="sch-platform-icon youtube"><i class="bx bxl-youtube"></i></div>
+                    <div class="sch-content">
+                      <p class="sch-preview">Video: "FastAPI + OpenAI API Endpoint Architecture Walkthrough"</p>
+                      <span class="sch-time"><i class="bx bx-time"></i> Saturday, May 30, 10:00 AM</span>
+                    </div>
+                    <span class="badge badge-info">Processing AI Video</span>
+                  </div>
+
+                  <div class="scheduled-item">
+                    <div class="sch-platform-icon twitter"><i class="bx bxl-twitter"></i></div>
+                    <div class="sch-content">
+                      <p class="sch-preview">Thread: "10 AI integration patterns you need to implement in 2026..."</p>
+                      <span class="sch-time"><i class="bx bx-time"></i> Tuesday, June 2, 02:30 PM</span>
+                    </div>
+                    <span class="badge badge-warning">Draft Mode</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Performance analysis -->
+          <div class="chart-card">
+            <div class="card-header">
+              <h3>Engagement Metrics by Platform</h3>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="socialChart"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================================
+             PAGE: CAMPAIGNS
+             ========================================================== -->
+        <section id="page-campaigns" class="page">
+          <div class="page-header">
+            <div class="header-title">
+              <h1>Campaign Manager</h1>
+              <p>Orchestrate marketing tasks, ads, and workflows into smart conversion funnels.</p>
+            </div>
+            <button class="btn btn-primary" id="btn-new-campaign">
+              <i class="bx bx-plus"></i> Create Campaign
+            </button>
+          </div>
+
+          <!-- Filters bar -->
+          <div class="filter-bar">
+            <div class="btn-group" id="campaign-filter-tabs">
+              <button class="btn btn-secondary active" data-filter="all">All Campaigns</button>
+              <button class="btn btn-secondary" data-filter="active">Active</button>
+              <button class="btn btn-secondary" data-filter="paused">Paused</button>
+              <button class="btn btn-secondary" data-filter="completed">Completed</button>
+              <button class="btn btn-secondary" data-filter="draft">Drafts</button>
+            </div>
+
+            <div class="filter-search-wrapper">
+              <input type="text" id="campaign-search-input" placeholder="Search campaign titles...">
+              <select id="campaign-sort-select" class="btn btn-secondary">
+                <option value="newest">Sort: Newest</option>
+                <option value="oldest">Sort: Oldest</option>
+                <option value="budget">Sort: Budget</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Campaigns Grid -->
+          <div class="campaigns-grid" id="campaigns-grid-container">
+            <!-- Campaign 1 -->
+            <div class="campaign-card" data-status="active">
+              <div class="campaign-card-header">
+                <span class="campaign-status active">Active</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Summer Sale 2026</h3>
+              <p class="campaign-desc">Multi-platform promotional campaign targeting tech hubs with exclusive discount rates.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge ig" title="Instagram"><i class="bx bxl-instagram"></i></span>
+                <span class="plat-badge fb" title="Facebook"><i class="bx bxl-facebook-circle"></i></span>
+                <span class="plat-badge tw" title="Twitter/X"><i class="bx bxl-twitter"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$5,000</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$3,240</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>1,847</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4 style="color: #10B981;">340%</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>65%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 65%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">May 1 - Jun 15, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only btn-pause-campaign" title="Pause"><i class="bx bx-pause"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Campaign 2 -->
+            <div class="campaign-card" data-status="active">
+              <div class="campaign-card-header">
+                <span class="campaign-status active">Active</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Product Launch - Nexus AI Suite</h3>
+              <p class="campaign-desc">Universal launch sequence introducing our local orchestration node APIs to target agencies.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge li" title="LinkedIn"><i class="bx bxl-linkedin-square"></i></span>
+                <span class="plat-badge tw" title="Twitter/X"><i class="bx bxl-twitter"></i></span>
+                <span class="plat-badge yt" title="YouTube"><i class="bx bxl-youtube"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$12,000</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$8,450</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>3,562</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4 style="color: #10B981;">285%</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">May 15 - Jul 1, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only btn-pause-campaign" title="Pause"><i class="bx bx-pause"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Campaign 3 -->
+            <div class="campaign-card" data-status="paused">
+              <div class="campaign-card-header">
+                <span class="campaign-status paused">Paused</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Brand Awareness Q3</h3>
+              <p class="campaign-desc">Ongoing newsletter promotion highlighting customer case studies and integration tutorials.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge li" title="LinkedIn"><i class="bx bxl-linkedin-square"></i></span>
+                <span class="plat-badge mail" title="Email"><i class="bx bx-envelope"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$3,500</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$1,200</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>892</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4 style="color: #10B981;">156%</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>34%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 34%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">Jun 1 - Aug 30, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only btn-pause-campaign" title="Resume"><i class="bx bx-play"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Campaign 4 -->
+            <div class="campaign-card" data-status="active">
+              <div class="campaign-card-header">
+                <span class="campaign-status active">Active</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Influencer Collaboration</h3>
+              <p class="campaign-desc">Short-form video series sponsored placement with prominent creators across TikTok.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge tt" title="TikTok"><i class="bx bxl-tiktok"></i></span>
+                <span class="plat-badge ig" title="Instagram"><i class="bx bxl-instagram"></i></span>
+                <span class="plat-badge yt" title="YouTube"><i class="bx bxl-youtube"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$8,000</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$5,600</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>2,341</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4 style="color: #10B981;">412%</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">May 10 - Jun 30, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only btn-pause-campaign" title="Pause"><i class="bx bx-pause"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Campaign 5 -->
+            <div class="campaign-card" data-status="completed">
+              <div class="campaign-card-header">
+                <span class="campaign-status completed">Completed</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Email Nurture Sequence</h3>
+              <p class="campaign-desc">Structured lifecycle emails utilizing smart trigger points following user signup.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge mail" title="Email"><i class="bx bx-envelope"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$1,500</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$1,500</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>4,521</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4 style="color: #10B981;">890%</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>100%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">Jan 1 - Apr 30, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only" disabled><i class="bx bx-pause"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Campaign 6 -->
+            <div class="campaign-card" data-status="draft">
+              <div class="campaign-card-header">
+                <span class="campaign-status draft">Draft</span>
+                <div class="campaign-menu"><i class="bx bx-dots-horizontal-rounded"></i></div>
+              </div>
+              <h3>Black Friday Warmup</h3>
+              <p class="campaign-desc">Strategic preparation sequences driving pre-registrations for upcoming seasonal offers.</p>
+              
+              <div class="campaign-platforms">
+                <span class="plat-badge ig" title="Instagram"><i class="bx bxl-instagram"></i></span>
+                <span class="plat-badge mail" title="Email"><i class="bx bx-envelope"></i></span>
+              </div>
+
+              <div class="campaign-stats-block">
+                <div class="cmp-stat">
+                  <span>Budget</span>
+                  <h4>$15,000</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Spent</span>
+                  <h4>$0</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Leads Generated</span>
+                  <h4>0</h4>
+                </div>
+                <div class="cmp-stat">
+                  <span>Est. ROI</span>
+                  <h4>-</h4>
+                </div>
+              </div>
+
+              <div class="campaign-progress">
+                <div class="progress-label">
+                  <span>Completion Progress</span>
+                  <span>0%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 0%;"></div>
+                </div>
+              </div>
+
+              <div class="campaign-card-footer">
+                <span class="date-range">Nov 1 - Dec 1, 2026</span>
+                <div class="card-action-btns">
+                  <button class="btn btn-secondary btn-icon-only btn-pause-campaign" title="Launch"><i class="bx bx-play"></i></button>
+                  <button class="btn btn-secondary btn-icon-only" title="Settings"><i class="bx bx-edit"></i></button>
+                  <button class="btn btn-secondary btn-icon-only btn-delete-campaign" title="Delete"><i class="bx bx-trash"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Campaign Creation Modal -->
+          <div class="modal" id="campaign-modal" style="display: none;">
+            <div class="modal-overlay" id="campaign-modal-overlay"></div>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Create New Campaign</h2>
+                <button class="modal-close" id="btn-close-modal"><i class="bx bx-x"></i></button>
+              </div>
+              <form id="new-campaign-form">
+                <div class="form-group">
+                  <label for="new-cmp-name">Campaign Name</label>
+                  <input type="text" id="new-cmp-name" placeholder="E.g., Q3 Enterprise Acquisition" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="new-cmp-desc">Campaign Description</label>
+                  <textarea id="new-cmp-desc" placeholder="Describe the focus and deliverables of this campaign..." rows="3" required></textarea>
+                </div>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="new-cmp-type">Campaign Goal</label>
+                    <select id="new-cmp-type" class="form-control-select">
+                      <option value="lead">Lead Generation</option>
+                      <option value="brand">Brand Awareness</option>
+                      <option value="conv">Conversion Rate Optimization</option>
+                      <option value="ret">Audience Engagement</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="new-cmp-budget">Budget (USD)</label>
+                    <input type="number" id="new-cmp-budget" placeholder="e.g. 5000" min="100" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Select Target Channels</label>
+                  <div class="channels-checkbox-grid">
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="instagram" checked>
+                      <span class="checkmark"></span>
+                      Instagram
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="facebook" checked>
+                      <span class="checkmark"></span>
+                      Facebook
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="twitter">
+                      <span class="checkmark"></span>
+                      X / Twitter
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="linkedin" checked>
+                      <span class="checkmark"></span>
+                      LinkedIn
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="tiktok">
+                      <span class="checkmark"></span>
+                      TikTok
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="youtube">
+                      <span class="checkmark"></span>
+                      YouTube
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" name="channels" value="email">
+                      <span class="checkmark"></span>
+                      Email marketing
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="new-cmp-start">Start Date</label>
+                    <input type="date" id="new-cmp-start" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="new-cmp-end">End Date</label>
+                    <input type="date" id="new-cmp-end" required>
+                  </div>
+                </div>
+
+                <div class="form-group flex-row-toggle">
+                  <div class="toggle-info">
+                    <h4>Enable AI Optimization Engine</h4>
+                    <p>Auto-budget distribution and dynamically generated ad copy changes based on live ROI.</p>
+                  </div>
+                  <label class="toggle-switch">
+                    <input type="checkbox" id="new-cmp-ai-opt" checked>
+                    <span class="slider"></span>
+                  </label>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" id="btn-cancel-modal">Cancel</button>
+                  <button type="submit" class="btn btn-primary">Launch Campaign</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================================
+             PAGE: ANALYTICS
+             ========================================================== -->
+        <section id="page-analytics" class="page">
+          <div class="page-header">
+            <div class="header-title">
+              <h1>Analytics & Real-time Insights</h1>
+              <p>Analyze performance metrics across your channels, with predictive trends computed in real-time.</p>
+            </div>
+            
+            <div class="date-range-picker">
+              <input type="date" id="analytics-date-start" value="2026-05-01">
+              <span>to</span>
+              <input type="date" id="analytics-date-end" value="2026-05-29">
+              <button class="btn btn-secondary btn-sm" id="btn-analytics-filter">Apply</button>
+            </div>
+          </div>
+
+          <!-- Metrics overview cards -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="metric-label">Total Impressions</span>
+              <h3 class="metric-value">8.4M</h3>
+              <span class="metric-trend positive"><i class="bx bx-up-arrow-alt"></i> 18.2%</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Click-Through Rate (CTR)</span>
+              <h3 class="metric-value">3.2%</h3>
+              <span class="metric-trend positive"><i class="bx bx-up-arrow-alt"></i> 0.8%</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Conversion Rate</span>
+              <h3 class="metric-value">2.1%</h3>
+              <span class="metric-trend positive"><i class="bx bx-up-arrow-alt"></i> 0.3%</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Avg. Cost per Lead (CPL)</span>
+              <h3 class="metric-value">$4.32</h3>
+              <span class="metric-trend positive" style="color: #10B981; background: rgba(16, 185, 129, 0.1);"><i class="bx bx-down-arrow-alt"></i> 12.5%</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Customer Lifetime Value (LTV)</span>
+              <h3 class="metric-value">$847</h3>
+              <span class="metric-trend positive"><i class="bx bx-up-arrow-alt"></i> 22.1%</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Return on Ad Spend (ROAS)</span>
+              <h3 class="metric-value">4.2x</h3>
+              <span class="metric-trend positive"><i class="bx bx-up-arrow-alt"></i> 0.6x</span>
+            </div>
+          </div>
+
+          <!-- Advanced Analytics Charts -->
+          <div class="charts-grid">
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Audience Growth Over Time</h3>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="audienceChart"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Content Performance Distribution</h3>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="contentChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <div class="charts-grid">
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Traffic Referrals (Doughnut)</h3>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="trafficChart"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="card-header">
+                <h3>Platform Specific Click Volumes</h3>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="platformChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI-powered insights report panel -->
+          <div class="insights-panel">
+            <div class="insights-panel-header">
+              <h3><i class="bx bx-bot"></i> AI-Powered Analytics Reports</h3>
+              <span class="badge badge-success">Live Analysis</span>
+            </div>
+            
+            <div class="insights-grid">
+              <div class="insight-card-item">
+                <div class="ins-header">
+                  <div class="ins-icon" style="background: rgba(99, 102, 241, 0.1); color: #6366F1;"><i class="bx bx-time-five"></i></div>
+                  <h4>Peak Engagement Period</h4>
+                  <span class="ins-impact-badge high">High Impact</span>
+                </div>
+                <p>Audience engagement surges between 6:00 PM and 8:00 PM EST on weekdays. Consistently queue major product updates during this timezone bracket to maximize conversions.</p>
+              </div>
+
+              <div class="insight-card-item">
+                <div class="ins-header">
+                  <div class="ins-icon" style="background: rgba(16, 185, 129, 0.1); color: #10B981;"><i class="bx bx-trending-up"></i></div>
+                  <h4>Content Format Shift</h4>
+                  <span class="ins-impact-badge high">High Impact</span>
+                </div>
+                <p>Interactive video campaigns are yielding a 3.2x higher click rate than static graphic copy. We suggest adjusting your budget allocation to support video-first output formats.</p>
+              </div>
+
+              <div class="insight-card-item">
+                <div class="ins-header">
+                  <div class="ins-icon" style="background: rgba(236, 72, 153, 0.1); color: #EC4899;"><i class="bx bx-user-plus"></i></div>
+                  <h4>LinkedIn Expansion Node</h4>
+                  <span class="ins-impact-badge medium">Medium Impact</span>
+                </div>
+                <p>Your B2B audience demographic on LinkedIn shows a 28% month-over-month growth rate. Expanding target audience segments will yield quality enterprise leads.</p>
+              </div>
+
+              <div class="insight-card-item">
+                <div class="ins-header">
+                  <div class="ins-icon" style="background: rgba(6, 182, 212, 0.1); color: #06B6D4;"><i class="bx bx-dollar"></i></div>
+                  <h4>Budget Redistribution Plan</h4>
+                  <span class="ins-impact-badge high">High Impact</span>
+                </div>
+                <p>Shifting 15% of your lowest-performing Facebook Ad sets toward targeted TikTok video formats will raise estimated campaign ROI by 22% based on current conversion rates.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==========================================================
+             PAGE: SETTINGS
+             ========================================================== -->
+        <section id="page-settings" class="page">
+          <div class="page-header">
+            <div class="header-title">
+              <h1>Settings & Preferences</h1>
+              <p>Configure user profiles, connect API keys, set up team roles, and adjust subscription billing details.</p>
+            </div>
+          </div>
+
+          <!-- Settings Tabs -->
+          <div class="settings-tabs-container">
+            <div class="settings-tabs">
+              <button class="settings-tab active" data-tab="profile">User Profile</button>
+              <button class="settings-tab" data-tab="integrations">Integrations & API</button>
+              <button class="settings-tab" data-tab="billing">Usage & Billing</button>
+              <button class="settings-tab" data-tab="team">Team Management</button>
+              <button class="settings-tab" data-tab="api-keys">Developer Keys</button>
+            </div>
+
+            <!-- TAB CONTENT: PROFILE -->
+            <div class="settings-panel active" id="tab-profile">
+              <div class="settings-card">
+                <h3>Personal Information</h3>
+                
+                <div class="profile-avatar-row">
+                  <div class="profile-avatar-large">KA</div>
+                  <div class="profile-avatar-actions">
+                    <button class="btn btn-secondary btn-sm">Change Photo</button>
+                    <button class="btn btn-outline btn-sm" style="border: none; color: #EF4444; padding: 0;">Remove</button>
+                  </div>
+                </div>
+
+                <form id="profile-settings-form">
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label for="prof-name">Full Name</label>
+                      <input type="text" id="prof-name" value="Kamran Ahmad" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="prof-email">Email Address</label>
+                      <input type="email" id="prof-email" value="kamran@omniai.nexus" required>
+                    </div>
+                  </div>
+
+                  <div class="form-grid">
+                    <div class="form-group">
+                      <label for="prof-phone">Phone Number</label>
+                      <input type="text" id="prof-phone" value="+1 (555) 019-2834">
+                    </div>
+                    <div class="form-group">
+                      <label for="prof-company">Company</label>
+                      <input type="text" id="prof-company" value="Ahmad Agency Inc.">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="prof-bio">Short Biography</label>
+                    <textarea id="prof-bio" rows="3" placeholder="Tell us about yourself...">Founder & lead marketer. Automating business growth architectures.</textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="prof-tz">TimeZone</label>
+                    <select id="prof-tz" class="form-control-select">
+                      <option value="utc">UTC (Coordinated Universal Time)</option>
+                      <option value="est" selected>EST (Eastern Standard Time)</option>
+                      <option value="pst">PST (Pacific Standard Time)</option>
+                      <option value="cet">CET (Central European Time)</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Save Profile Changes</button>
+                </form>
+              </div>
+            </div>
+
+            <!-- TAB CONTENT: INTEGRATIONS -->
+            <div class="settings-panel" id="tab-integrations">
+              <div class="settings-card">
+                <h3>AI Provider Connections</h3>
+                <p class="settings-desc">Link your direct API accounts to query proprietary nodes.</p>
+
+                <div class="integration-list">
+                  <div class="integration-item">
+                    <div class="int-avatar" style="background: #10B981; color: white;"><i class="bx bx-bot"></i></div>
+                    <div class="int-info">
+                      <h4>OpenAI Engine</h4>
+                      <p>Active query connection. GPT-4o enabled.</p>
+                    </div>
+                    <div class="int-actions">
+                      <span class="status-indicator-active"><span class="dot"></span> Connected</span>
+                      <label class="toggle-switch">
+                        <input type="checkbox" checked id="int-openai-toggle">
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="integration-item">
+                    <div class="int-avatar" style="background: #6366F1; color: white;"><i class="bx bxl-google"></i></div>
+                    <div class="int-info">
+                      <h4>Google Gemini</h4>
+                      <p>API Integration active. Gemini 1.5 Pro enabled.</p>
+                    </div>
+                    <div class="int-actions">
+                      <span class="status-indicator-active"><span class="dot"></span> Connected</span>
+                      <label class="toggle-switch">
+                        <input type="checkbox" checked id="int-gemini-toggle">
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="integration-item">
+                    <div class="int-avatar" style="background: #8B5CF6; color: white;"><i class="bx bx-shield"></i></div>
+                    <div class="int-info">
+                      <h4>Claude AI (Anthropic)</h4>
+                      <p>API connection valid. Claude 3.5 Sonnet active.</p>
+                    </div>
+                    <div class="int-actions">
+                      <span class="status-indicator-active"><span class="dot"></span> Connected</span>
+                      <label class="toggle-switch">
+                        <input type="checkbox" checked id="int-claude-toggle">
+                        <span class="slider"></span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="integration-item">
+                    <div class="int-avatar" style="background: #1E293B; color: white;"><i class="bx bx-brain"></i></div>
+                    <div class="int-info">
+                      <h4>DeepSeek Core</h4>
+                      <p>Open-source translation API node.</p>
+                    </div>
+                    <div class="int-actions">
+                      <button class="btn btn-secondary btn-sm" id="btn-connect-deepseek">Connect API</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB CONTENT: BILLING -->
+            <div class="settings-panel" id="tab-billing">
+              <div class="settings-card">
+                <h3>Subscription Details</h3>
+                <div class="billing-subscription-card">
+                  <div class="sub-tier-badge">Pro Plan</div>
+                  <div class="sub-price-row">
+                    <h2>$49<span>/month</span></h2>
+                    <span>Next renewal: June 29, 2026</span>
+                  </div>
+                  <p>Includes complete Multi-AI studio integrations, basic campaign optimization & social scheduling packages.</p>
+                  <button class="btn btn-primary" id="btn-upgrade-plan">Upgrade to Enterprise Plan</button>
+                </div>
+
+                <h3>Usage Limits & Quotas</h3>
+                <div class="meters-list">
+                  <div class="meter-item">
+                    <div class="meter-label">
+                      <span>API Call Execution</span>
+                      <span>7,234 / 10,000 queries</span>
+                    </div>
+                    <div class="meter-bar-bg">
+                      <div class="meter-fill" style="width: 72.3%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="meter-item">
+                    <div class="meter-label">
+                      <span>AI Storage Capacity</span>
+                      <span>3.2 GB / 10 GB</span>
+                    </div>
+                    <div class="meter-bar-bg">
+                      <div class="meter-fill" style="width: 32%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="meter-item">
+                    <div class="meter-label">
+                      <span>Generated AI Tokens</span>
+                      <span>847 / 2,000 requests</span>
+                    </div>
+                    <div class="meter-bar-bg">
+                      <div class="meter-fill" style="width: 42.3%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3>Billing History</h3>
+                <div class="billing-table-wrapper">
+                  <table class="billing-table">
+                    <thead>
+                      <tr>
+                        <th>Invoice ID</th>
+                        <th>Billing Date</th>
+                        <th>Amount</th>
+                        <th>Payment Status</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>INV-2026-084</td>
+                        <td>May 29, 2026</td>
+                        <td>$49.00</td>
+                        <td><span class="status-badge-paid">Paid</span></td>
+                        <td><button class="btn btn-secondary btn-sm-icon"><i class="bx bx-download"></i></button></td>
+                      </tr>
+                      <tr>
+                        <td>INV-2026-041</td>
+                        <td>Apr 29, 2026</td>
+                        <td>$49.00</td>
+                        <td><span class="status-badge-paid">Paid</span></td>
+                        <td><button class="btn btn-secondary btn-sm-icon"><i class="bx bx-download"></i></button></td>
+                      </tr>
+                      <tr>
+                        <td>INV-2026-002</td>
+                        <td>Mar 29, 2026</td>
+                        <td>$49.00</td>
+                        <td><span class="status-badge-paid">Paid</span></td>
+                        <td><button class="btn btn-secondary btn-sm-icon"><i class="bx bx-download"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB CONTENT: TEAM -->
+            <div class="settings-panel" id="tab-team">
+              <div class="settings-card">
+                <h3>Invite Team Member</h3>
+                <form id="invite-team-form" class="invite-team-row">
+                  <input type="email" id="invite-email" placeholder="colleague@agency.com" required>
+                  <select id="invite-role" class="form-control-select-sm">
+                    <option value="admin">Admin Manager</option>
+                    <option value="editor" selected>Editor (Content creator)</option>
+                    <option value="viewer">Viewer Only</option>
+                  </select>
+                  <button type="submit" class="btn btn-primary">Send Invite</button>
+                </form>
+
+                <h3>Active Workspace Directory</h3>
+                <div class="team-list" id="team-list-container">
+                  <div class="team-member-item">
+                    <div class="team-avatar">KA</div>
+                    <div class="team-details">
+                      <h4>Kamran Ahmad (You)</h4>
+                      <p>kamran@omniai.nexus</p>
+                    </div>
+                    <span class="role-badge owner">Owner</span>
+                  </div>
+
+                  <div class="team-member-item">
+                    <div class="team-avatar">AS</div>
+                    <div class="team-details">
+                      <h4>Alice Smith</h4>
+                      <p>alice@omniai.nexus</p>
+                    </div>
+                    <span class="role-badge admin">Admin</span>
+                  </div>
+
+                  <div class="team-member-item">
+                    <div class="team-avatar">JD</div>
+                    <div class="team-details">
+                      <h4>John Doe</h4>
+                      <p>john@omniai.nexus</p>
+                    </div>
+                    <span class="role-badge editor">Editor</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB CONTENT: API KEYS -->
+            <div class="settings-panel" id="tab-api-keys">
+              <div class="settings-card">
+                <h3>Workspace API Keys</h3>
+                <p class="settings-desc">Generate access keys to authenticate custom scripts with the OmniAI Gateway.</p>
+
+                <div class="generate-key-block">
+                  <input type="text" id="api-key-name" placeholder="E.g., HubSpot Sync script">
+                  <button class="btn btn-primary" id="btn-generate-api-key">Create New Key</button>
+                </div>
+
+                <div class="api-keys-list" id="api-keys-list-container">
+                  <div class="key-item">
+                    <div class="key-details">
+                      <h4>Production Sync Node</h4>
+                      <span>sk_nexus_7c8d92a8...</span>
+                    </div>
+                    <div class="key-actions">
+                      <span class="key-date">Created May 10, 2026</span>
+                      <button class="btn btn-secondary btn-icon-only btn-copy-key" data-key="sk_nexus_7c8d92a8f89e248b11a9"><i class="bx bx-copy"></i></button>
+                      <button class="btn btn-secondary btn-icon-only btn-delete-key" style="color: #EF4444;"><i class="bx bx-trash"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div> <!-- /#page-container -->
+    </main> <!-- /#main-content -->
+  </div> <!-- /#app -->
+
+  <!-- Toast notifications container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Chart.js and Main JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

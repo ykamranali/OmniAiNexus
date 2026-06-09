@@ -1,0 +1,76 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ==========================================================
+   OMNIAI NEXUS THEME
+   ========================================================== */
+
+:root {
+    --omni-bg: #050816;
+    --omni-primary: #8b5cf6;
+    --omni-secondary: #06b6d4;
+}
+
+/* ==========================================================
+   GLOBAL
+   ========================================================== */
+
+body {
+    background: #050816;
+}
+
+/* ==========================================================
+   SIDEBAR
+   ========================================================== */
+
+.fi-sidebar {
+    background: #060b18 !important;
+}
+
+/* ==========================================================
+   TOPBAR
+   ========================================================== */
+
+.fi-topbar {
+    background: rgba(11, 16, 34, 0.9) !important;
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+
+.fi-btn-color-primary {
+    background: linear-gradient( 135deg, #8b5cf6, #6366f1 ) !important;
+    color: #ffffff !important;
+}
+
+/* ==========================================================
+   FIX FILAMENT ICONS
+   ========================================================== */
+
+.fi-sidebar svg,
+.fi-topbar svg,
+.fi-icon svg,
+.fi-btn svg {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+}
+
+/* ==========================================================
+   SCROLLBAR
+   ========================================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 10px;
+}

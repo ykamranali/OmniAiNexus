@@ -1,0 +1,2088 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\omniainexus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\Dashboard.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\Dashboard.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\css\\filament\\admin\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\css\\filament\\admin\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Http\\Controllers\\SocialAuthController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Http\\Controllers\\SocialAuthController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Services\\LinkedInPublisherService.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Services\\LinkedInPublisherService.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Console\\Commands\\SyncSocialMetrics.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Console\\Commands\\SyncSocialMetrics.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Services\\SocialMetricsSyncService.php||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Services\\SocialMetricsSyncService.php||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\SocialMetric.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\SocialMetric.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_170307_create_social_metrics_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_06_170307_create_social_metrics_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Activity.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Activity.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\SocialPost.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\SocialPost.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\SocialAccount.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\SocialAccount.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\welcome.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\welcome.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AiMarketingStudio.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\AiMarketingStudio.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AIStudio.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\AIStudio.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\routes\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\routes\\web.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\web.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\config\\services.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\services.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\routes\\console.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\console.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiHealthWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\AiHealthWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Campaign.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Campaign.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_130539_create_campaigns_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_04_130539_create_campaigns_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\content-calendar.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\content-calendar.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\ContentCalendar.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\ContentCalendar.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\OmniAiAssistant.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\OmniAiAssistant.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Services\\OpenAIService.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Services\\OpenAIService.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\LeadStatusChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\LeadStatusChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\DealPipelineChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\DealPipelineChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\UserResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Users\\UserResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\DealResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Deals\\DealResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Providers\\Filament\\AdminPanelProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Providers\\Filament\\AdminPanelProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Providers\\AppServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Providers\\AppServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\RevenueStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\OmniAiHero.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\OmniAiHero.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Organization.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Organization.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Support\\PlanLimit.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Support\\PlanLimit.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_164844_create_ai_generations_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_02_164844_create_ai_generations_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\AiGeneration.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\AiGeneration.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_175741_create_social_accounts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_01_175741_create_social_accounts_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\seeders\\DatabaseSeeder.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\seeders\\DatabaseSeeder.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\seeders\\PlanSeeder.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\seeders\\PlanSeeder.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Plan.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Plan.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Task.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Task.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Deal.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Deal.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecentActivity.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\RecentActivity.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Support\\ActivityLogger.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Support\\ActivityLogger.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_133416_create_activities_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_01_133416_create_activities_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ConversionStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\ConversionStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\TaskStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\TaskStats.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\DealPipeline.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Pages\\DealPipeline.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\User.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Lead.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Lead.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\vendor\\staabm\\side-effects-detector\\LICENSE||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vendor\\staabm\\side-effects-detector\\LICENSE||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\vendor\\spatie\\shiki-php\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vendor\\spatie\\shiki-php\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\artisan||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:artisan||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_042323_create_tasks_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_01_042323_create_tasks_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\StatsOverview.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\StatsOverview.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_035812_create_deals_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_06_01_035812_create_deals_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Contact.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Contact.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Filament\\Admin\\Widgets\\RevenueChart.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\omniainexus\\app\\Models\\Subscription.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\Models\\Subscription.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dashboard.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\dashboard.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\dashboard.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\dashboard.blade.php",
+              "RelativeToolTip": "resources\\views\\dashboard.blade.php",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAkwBQBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-07T10:20:03.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SocialMetricsSyncService.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Services\\SocialMetricsSyncService.php",
+              "RelativeDocumentMoniker": "app\\Services\\SocialMetricsSyncService.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Services\\SocialMetricsSyncService.php",
+              "RelativeToolTip": "app\\Services\\SocialMetricsSyncService.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T17:24:31.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinkedInPublisherService.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Services\\LinkedInPublisherService.php",
+              "RelativeDocumentMoniker": "app\\Services\\LinkedInPublisherService.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Services\\LinkedInPublisherService.php",
+              "RelativeToolTip": "app\\Services\\LinkedInPublisherService.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T18:15:50.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocialAuthController.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Http\\Controllers\\SocialAuthController.php",
+              "RelativeDocumentMoniker": "app\\Http\\Controllers\\SocialAuthController.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Http\\Controllers\\SocialAuthController.php",
+              "RelativeToolTip": "app\\Http\\Controllers\\SocialAuthController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T16:22:39.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\Dashboard.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\Dashboard.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\Dashboard.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\Dashboard.php",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAkwN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T20:33:25.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dashboard.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\dashboard.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\dashboard.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\dashboard.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\dashboard.blade.php",
+              "ViewState": "AgIAAI8DAAAAAAAAAAAkwKsDAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T20:40:50.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "theme.css",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\css\\filament\\admin\\theme.css",
+              "RelativeDocumentMoniker": "resources\\css\\filament\\admin\\theme.css",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\css\\filament\\admin\\theme.css",
+              "RelativeToolTip": "resources\\css\\filament\\admin\\theme.css",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAmwGYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-03T14:11:23.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\css\\app.css",
+              "RelativeDocumentMoniker": "resources\\css\\app.css",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\css\\app.css",
+              "RelativeToolTip": "resources\\css\\app.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-02T19:39:24.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SyncSocialMetrics.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Console\\Commands\\SyncSocialMetrics.php",
+              "RelativeDocumentMoniker": "app\\Console\\Commands\\SyncSocialMetrics.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Console\\Commands\\SyncSocialMetrics.php",
+              "RelativeToolTip": "app\\Console\\Commands\\SyncSocialMetrics.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T17:29:13.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SocialMetric.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\SocialMetric.php",
+              "RelativeDocumentMoniker": "app\\Models\\SocialMetric.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\SocialMetric.php",
+              "RelativeToolTip": "app\\Models\\SocialMetric.php",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T17:09:09.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "2026_06_06_170307_create_social_metrics_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_170307_create_social_metrics_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_06_170307_create_social_metrics_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_170307_create_social_metrics_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_06_170307_create_social_metrics_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T17:04:47.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "2026_06_06_164932_add_analytics_to_social_posts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_06_164932_add_analytics_to_social_posts_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T16:50:00.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\Projects\\omniainexus\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-06T10:47:22.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "a-i-studio.backup.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\a-i-studio.backup.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T10:07:20.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Activity.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Activity.php",
+              "RelativeDocumentMoniker": "app\\Models\\Activity.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Activity.php",
+              "RelativeToolTip": "app\\Models\\Activity.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:37:09.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SocialAccount.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\SocialAccount.php",
+              "RelativeDocumentMoniker": "app\\Models\\SocialAccount.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\SocialAccount.php",
+              "RelativeToolTip": "app\\Models\\SocialAccount.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:01:09.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SocialPost.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\SocialPost.php",
+              "RelativeDocumentMoniker": "app\\Models\\SocialPost.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\SocialPost.php",
+              "RelativeToolTip": "app\\Models\\SocialPost.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:24:59.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "welcome.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\welcome.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\welcome.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\welcome.blade.php",
+              "RelativeToolTip": "resources\\views\\welcome.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-06T09:59:26.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ai-marketing-studio.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\ai-marketing-studio.blade.php",
+              "ViewState": "AgIAADsBAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T17:34:38.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AiMarketingStudio.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AiMarketingStudio.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\AiMarketingStudio.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AiMarketingStudio.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\AiMarketingStudio.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T17:45:15.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SocialPostsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialPosts\\Tables\\SocialPostsTable.php",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:31:32.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "a-i-studio.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\a-i-studio.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T16:55:45.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AIStudio.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AIStudio.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\AIStudio.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\AIStudio.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\AIStudio.php",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAkwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T16:53:19.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SocialPostForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialPosts\\Schemas\\SocialPostForm.php",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:33:45.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "2026_06_05_193240_add_media_fields_to_social_posts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_05_193240_add_media_fields_to_social_posts_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T19:32:56.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SocialAccountsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Tables\\SocialAccountsTable.php",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:10:16.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\.env.example",
+              "RelativeDocumentMoniker": ".env.example",
+              "ToolTip": "C:\\Projects\\omniainexus\\.env.example",
+              "RelativeToolTip": ".env.example",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:48:55.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SocialAccountResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialAccounts\\SocialAccountResource.php",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:12:02.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "auth.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\routes\\auth.php",
+              "RelativeDocumentMoniker": "routes\\auth.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\routes\\auth.php",
+              "RelativeToolTip": "routes\\auth.php",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T11:47:07.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "web.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\routes\\web.php",
+              "RelativeDocumentMoniker": "routes\\web.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\routes\\web.php",
+              "RelativeToolTip": "routes\\web.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T11:46:54.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "services.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\config\\services.php",
+              "RelativeDocumentMoniker": "config\\services.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\config\\services.php",
+              "RelativeToolTip": "config\\services.php",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwC0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T15:24:39.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_05_150510_add_oauth_fields_to_social_accounts_table.php",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T15:05:28.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "console.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\routes\\console.php",
+              "RelativeDocumentMoniker": "routes\\console.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\routes\\console.php",
+              "RelativeToolTip": "routes\\console.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-05T11:47:20.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ExecutiveDashboard.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\ExecutiveDashboard.php",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T04:22:02.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "omni-ai-assistant.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\omni-ai-assistant.blade.php",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T07:50:41.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Campaign.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Campaign.php",
+              "RelativeDocumentMoniker": "app\\Models\\Campaign.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Campaign.php",
+              "RelativeToolTip": "app\\Models\\Campaign.php",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:21:27.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AiHealthWidget.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiHealthWidget.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\AiHealthWidget.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiHealthWidget.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\AiHealthWidget.php",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T17:38:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "2026_06_04_135400_add_campaign_id_to_social_posts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_04_135400_add_campaign_id_to_social_posts_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T14:00:14.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CampaignsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Campaigns\\Tables\\CampaignsTable.php",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:49:55.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CampaignForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Campaigns\\Schemas\\CampaignForm.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:18:55.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateCampaign.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Campaigns\\Pages\\CreateCampaign.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:22:58.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CampaignResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Campaigns\\CampaignResource.php",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:14:00.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "2026_06_04_130539_create_campaigns_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_130539_create_campaigns_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_04_130539_create_campaigns_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_04_130539_create_campaigns_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_04_130539_create_campaigns_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:08:20.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "content-calendar.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\content-calendar.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\content-calendar.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\content-calendar.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\content-calendar.blade.php",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T13:02:53.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ContentCalendar.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\ContentCalendar.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\ContentCalendar.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\ContentCalendar.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\ContentCalendar.php",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T12:59:29.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OmniAiAssistant.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\OmniAiAssistant.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\OmniAiAssistant.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\OmniAiAssistant.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\OmniAiAssistant.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T07:49:59.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "executive-kpi-widget.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\executive-kpi-widget.blade.php",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T06:41:53.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ExecutiveKpiWidget.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\ExecutiveKpiWidget.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-04T06:41:06.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LeadStatusChart.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\LeadStatusChart.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\LeadStatusChart.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\LeadStatusChart.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\LeadStatusChart.php",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:00:58.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DealPipelineChart.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\DealPipelineChart.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\DealPipelineChart.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\DealPipelineChart.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\DealPipelineChart.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T07:53:23.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "recent-activity.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\recent-activity.blade.php",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAkwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T14:02:32.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OpenAIService.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Services\\OpenAIService.php",
+              "RelativeDocumentMoniker": "app\\Services\\OpenAIService.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Services\\OpenAIService.php",
+              "RelativeToolTip": "app\\Services\\OpenAIService.php",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T17:21:07.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ai-health-widget.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\ai-health-widget.blade.php",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAkwAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T17:39:21.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "recommendations-widget.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\recommendations-widget.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:23:21.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "social-performance-widget.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\social-performance-widget.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:24:38.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SocialPerformanceWidget.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\SocialPerformanceWidget.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:24:04.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ai-analytics-center.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\ai-analytics-center.blade.php",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAkwK8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:28:40.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "executive-dashboard.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\widgets\\executive-dashboard.blade.php",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAkwFgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T04:22:53.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AiGenerationResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\AiGenerations\\AiGenerationResource.php",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:00:32.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SubscriptionResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Subscriptions\\SubscriptionResource.php",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:06:45.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PlanResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Plans\\PlanResource.php",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:05:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrganizationResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Organizations\\OrganizationResource.php",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:01:15.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UserResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\UserResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Users\\UserResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\UserResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Users\\UserResource.php",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:03:47.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SocialPostResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialPosts\\SocialPostResource.php",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:47:31.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ContactResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Contacts\\ContactResource.php",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T03:52:17.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DealResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\DealResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Deals\\DealResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\DealResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Deals\\DealResource.php",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T09:04:52.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "LeadResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Leads\\LeadResource.php",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T03:50:26.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LeadsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Leads\\Tables\\LeadsTable.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:56:30.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AiAnalyticsCenter.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\AiAnalyticsCenter.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:28:07.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RecommendationsWidget.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\RecommendationsWidget.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T18:22:38.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AppServiceProvider.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Providers\\AppServiceProvider.php",
+              "RelativeDocumentMoniker": "app\\Providers\\AppServiceProvider.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Providers\\AppServiceProvider.php",
+              "RelativeToolTip": "app\\Providers\\AppServiceProvider.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-03T17:31:26.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TaskResource.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Tasks\\TaskResource.php",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T08:44:03.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AdminPanelProvider.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Providers\\Filament\\AdminPanelProvider.php",
+              "RelativeDocumentMoniker": "app\\Providers\\Filament\\AdminPanelProvider.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Providers\\Filament\\AdminPanelProvider.php",
+              "RelativeToolTip": "app\\Providers\\Filament\\AdminPanelProvider.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:02:10.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "postcss.config.js",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\postcss.config.js",
+              "RelativeDocumentMoniker": "postcss.config.js",
+              "ToolTip": "C:\\Projects\\omniainexus\\postcss.config.js",
+              "RelativeToolTip": "postcss.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-01T05:49:08.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RevenueStats.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueStats.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\RevenueStats.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueStats.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\RevenueStats.php",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T08:06:09.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "OmniAiHero.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\OmniAiHero.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\OmniAiHero.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\OmniAiHero.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\OmniAiHero.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T19:52:03.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Organization.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Organization.php",
+              "RelativeDocumentMoniker": "app\\Models\\Organization.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Organization.php",
+              "RelativeToolTip": "app\\Models\\Organization.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T16:55:43.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CreateSocialPost.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialPosts\\Pages\\CreateSocialPost.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:43:59.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "2026_06_02_183717_add_fields_to_social_posts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_02_183717_add_fields_to_social_posts_table.php",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:38:44.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ListAiGenerations.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\AiGenerations\\Pages\\ListAiGenerations.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T18:02:12.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "AiGenerationsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\AiGenerations\\Tables\\AiGenerationsTable.php",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T17:59:54.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "2026_06_02_164844_create_ai_generations_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_164844_create_ai_generations_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_02_164844_create_ai_generations_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_02_164844_create_ai_generations_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_02_164844_create_ai_generations_table.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T16:51:01.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PlanLimit.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Support\\PlanLimit.php",
+              "RelativeDocumentMoniker": "app\\Support\\PlanLimit.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Support\\PlanLimit.php",
+              "RelativeToolTip": "app\\Support\\PlanLimit.php",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:35:52.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AiGeneration.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\AiGeneration.php",
+              "RelativeDocumentMoniker": "app\\Models\\AiGeneration.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\AiGeneration.php",
+              "RelativeToolTip": "app\\Models\\AiGeneration.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-02T16:49:51.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ListSocialAccounts.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\ListSocialAccounts.php",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:45:33.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CreateSocialAccount.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Pages\\CreateSocialAccount.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:19:58.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "SocialAccountForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\SocialAccounts\\Schemas\\SocialAccountForm.php",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:09:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "2026_06_01_175741_create_social_accounts_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_175741_create_social_accounts_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_01_175741_create_social_accounts_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_175741_create_social_accounts_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_01_175741_create_social_accounts_table.php",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T18:01:43.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "PlanForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Plans\\Schemas\\PlanForm.php",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:55:29.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "PlanSeeder.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\seeders\\PlanSeeder.php",
+              "RelativeDocumentMoniker": "database\\seeders\\PlanSeeder.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\seeders\\PlanSeeder.php",
+              "RelativeToolTip": "database\\seeders\\PlanSeeder.php",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:50:06.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DatabaseSeeder.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\seeders\\DatabaseSeeder.php",
+              "RelativeDocumentMoniker": "database\\seeders\\DatabaseSeeder.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\seeders\\DatabaseSeeder.php",
+              "RelativeToolTip": "database\\seeders\\DatabaseSeeder.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:49:53.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Plan.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Plan.php",
+              "RelativeDocumentMoniker": "app\\Models\\Plan.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Plan.php",
+              "RelativeToolTip": "app\\Models\\Plan.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:45:13.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ListUsers.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Users\\Pages\\ListUsers.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:40:11.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "2026_06_01_172848_add_saas_limits_to_plans_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_01_172848_add_saas_limits_to_plans_table.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T17:29:23.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "RecentActivity.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecentActivity.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\RecentActivity.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RecentActivity.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\RecentActivity.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T14:00:50.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ActivityLogger.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Support\\ActivityLogger.php",
+              "RelativeDocumentMoniker": "app\\Support\\ActivityLogger.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Support\\ActivityLogger.php",
+              "RelativeToolTip": "app\\Support\\ActivityLogger.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:40:52.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ViewLead.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Leads\\Pages\\ViewLead.php",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:07:51.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Deal.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Deal.php",
+              "RelativeDocumentMoniker": "app\\Models\\Deal.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Deal.php",
+              "RelativeToolTip": "app\\Models\\Deal.php",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwD0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:01:57.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Task.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Task.php",
+              "RelativeDocumentMoniker": "app\\Models\\Task.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Task.php",
+              "RelativeToolTip": "app\\Models\\Task.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:25:54.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "2026_06_01_133416_create_activities_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_133416_create_activities_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_01_133416_create_activities_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_133416_create_activities_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_01_133416_create_activities_table.php",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:36:16.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "ConversionStats.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ConversionStats.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\ConversionStats.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\ConversionStats.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\ConversionStats.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:30:38.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "TaskStats.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\TaskStats.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\TaskStats.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\TaskStats.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\TaskStats.php",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T13:24:01.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "deal-pipeline.blade.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php",
+              "RelativeDocumentMoniker": "resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php",
+              "RelativeToolTip": "resources\\views\\filament\\admin\\pages\\deal-pipeline.blade.php",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAkwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:21:05.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "DealPipeline.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\DealPipeline.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Pages\\DealPipeline.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Pages\\DealPipeline.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Pages\\DealPipeline.php",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T10:12:08.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "ContactForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Contacts\\Schemas\\ContactForm.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T03:49:07.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "DealForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Deals\\Schemas\\DealForm.php",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:06:09.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "TaskForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Tasks\\Schemas\\TaskForm.php",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:30:41.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "DealsTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Deals\\Tables\\DealsTable.php",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:07:27.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "User.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\User.php",
+              "RelativeDocumentMoniker": "app\\Models\\User.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\User.php",
+              "RelativeToolTip": "app\\Models\\User.php",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:19:57.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "UserForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Users\\Schemas\\UserForm.php",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T08:32:03.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "UsersTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Users\\Tables\\UsersTable.php",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T08:32:21.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "LeadForm.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Leads\\Schemas\\LeadForm.php",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:09:06.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Lead.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Lead.php",
+              "RelativeDocumentMoniker": "app\\Models\\Lead.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Lead.php",
+              "RelativeToolTip": "app\\Models\\Lead.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T16:56:12.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\vendor\\staabm\\side-effects-detector\\LICENSE",
+              "RelativeDocumentMoniker": "vendor\\staabm\\side-effects-detector\\LICENSE",
+              "ToolTip": "C:\\Projects\\omniainexus\\vendor\\staabm\\side-effects-detector\\LICENSE",
+              "RelativeToolTip": "vendor\\staabm\\side-effects-detector\\LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:49:52.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\vendor\\spatie\\shiki-php\\README.md",
+              "RelativeDocumentMoniker": "vendor\\spatie\\shiki-php\\README.md",
+              "ToolTip": "C:\\Projects\\omniainexus\\vendor\\spatie\\shiki-php\\README.md",
+              "RelativeToolTip": "vendor\\spatie\\shiki-php\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-01T05:49:20.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\tailwind.config.js",
+              "RelativeDocumentMoniker": "tailwind.config.js",
+              "ToolTip": "C:\\Projects\\omniainexus\\tailwind.config.js",
+              "RelativeToolTip": "tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-01T05:49:13.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "artisan",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\artisan",
+              "RelativeDocumentMoniker": "artisan",
+              "ToolTip": "C:\\Projects\\omniainexus\\artisan",
+              "RelativeToolTip": "artisan",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:49:06.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Projects\\omniainexus\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:49:03.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Projects\\omniainexus\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:49:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Projects\\omniainexus\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-01T05:48:53.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "TasksTable.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Tasks\\Tables\\TasksTable.php",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:31:38.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "2026_06_01_042323_create_tasks_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_042323_create_tasks_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_01_042323_create_tasks_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_042323_create_tasks_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_01_042323_create_tasks_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:23:53.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "StatsOverview.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\StatsOverview.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\StatsOverview.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\StatsOverview.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\StatsOverview.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:15:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "ViewOrganization.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Resources\\Organizations\\Pages\\ViewOrganization.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:11:19.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "2026_06_01_035812_create_deals_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_035812_create_deals_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_06_01_035812_create_deals_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_06_01_035812_create_deals_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_06_01_035812_create_deals_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-06-01T04:00:36.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "2026_05_31_171148_add_organization_to_users_table.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php",
+              "RelativeDocumentMoniker": "database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php",
+              "RelativeToolTip": "database\\migrations\\2026_05_31_171148_add_organization_to_users_table.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:14:09.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "RevenueChart.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueChart.php",
+              "RelativeDocumentMoniker": "app\\Filament\\Admin\\Widgets\\RevenueChart.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Filament\\Admin\\Widgets\\RevenueChart.php",
+              "RelativeToolTip": "app\\Filament\\Admin\\Widgets\\RevenueChart.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T17:06:35.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "Contact.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Contact.php",
+              "RelativeDocumentMoniker": "app\\Models\\Contact.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Contact.php",
+              "RelativeToolTip": "app\\Models\\Contact.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T16:56:29.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "Subscription.php",
+              "DocumentMoniker": "C:\\Projects\\omniainexus\\app\\Models\\Subscription.php",
+              "RelativeDocumentMoniker": "app\\Models\\Subscription.php",
+              "ToolTip": "C:\\Projects\\omniainexus\\app\\Models\\Subscription.php",
+              "RelativeToolTip": "app\\Models\\Subscription.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2026-05-31T16:54:28.096Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

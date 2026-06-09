@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Filament\\Admin",
+    "\\app\\Filament\\Admin\\Resources",
+    "\\app\\Http",
+    "\\app\\Providers\\Filament",
+    "\\resources",
+    "\\resources\\views\\filament\\admin\\widgets"
+  ],
+  "SelectedNode": "\\.gitignore",
+  "PreviewInSolutionExplorer": false
+}
